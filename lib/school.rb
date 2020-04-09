@@ -1,3 +1,4 @@
+require "pry"
 class School
     attr_accessor :school_name, :roster, :student_name
 
@@ -25,6 +26,7 @@ end
     end
 end
 end
+binding.pry
   puts School.new("Piscataway High").roster
   
   
