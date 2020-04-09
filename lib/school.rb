@@ -25,5 +25,6 @@ end
     end
 end
 end
-  puts School.new("Piscataway High")
+  puts School.new("Piscataway High").roster
+  
   
