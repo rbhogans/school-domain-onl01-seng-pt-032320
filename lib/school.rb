@@ -25,4 +25,5 @@ end
     end
 end
 end
-   
+  puts School.new("Piscataway High")
+  
