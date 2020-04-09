@@ -27,6 +27,6 @@ end
 end
 end
 binding.pry
-  puts School.new("Piscataway High").roster
+  puts School.new("Piscataway High")
   
   
