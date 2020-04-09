@@ -11,7 +11,7 @@ class School
     if @roster[grade] ## check to see if key of grade exists
       @roster[grade] << student_name
     else
-      @roster[grade] = []
+      @roster[grade] = []  #sets the key initially, and gives a starting value
       @roster[grade] << student_name
     end
 end
